@@ -1,0 +1,11 @@
+{
+  "Class": "Folder",
+  "Name": "ExampleLib",
+  "Children": [
+    {
+      "Class": "ModuleScript",
+      "Name": "ModuleScript",
+      "Source": "local _init = {}\n\n_init.Info = {\n\t[\"Name\"] = \"ExampleLib\",\n\t[\"Version\"] = \"1.0.0\",\n\t[\"Creator\"] = \"Sad44587\",\n\t[\"Description\"] = \"Test de Library\"}\n\nfunction _init:Launch() \n\tprint(\"ExampleLib lancée !\")\nend \n\nreturn _init"
+    }
+  ]
+}
